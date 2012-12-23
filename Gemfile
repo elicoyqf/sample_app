@@ -1,6 +1,7 @@
 source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.8'
+gem 'bootstrap-sass'
 
 group :development,:test do
   gem 'sqlite3'
