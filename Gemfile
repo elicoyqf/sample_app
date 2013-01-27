@@ -3,6 +3,7 @@ source 'http://ruby.taobao.org'
 gem 'rails', '3.2.8'
 gem 'bootstrap-sass'
 gem 'bcrypt-ruby'
+gem 'slim'
 
 group :development do
   gem 'annotate'
@@ -20,6 +21,8 @@ end
 group :test do
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
 end
 
 group :assets do
